@@ -1,11 +1,19 @@
 
 
-let banKinh;
+let inputvatly = document.getElementById("inputVatLy");
+let inputhoahoc = document.getElementById("inputHoaHoc");
+let inputsinhHoc = document.getElementById("inputSinhHoc");
+let result = document.getElementById("result")
+result.addEventListener("click", myFunction)
 
-inputBanKinh = prompt("Nhập Bán Kính Hình Tròn");
+    // let vatLyscore = parseInt(inputvatly.value);
+    // let hocHocScore = parseInt(inputhoahoc.value);
+    // let sinhHocScore = parseInt(inputsinhHoc.value);
 
-let Ban = parseInt(inputCelsius);
+function myFunction() {
+    let totalScore = inputvatly + inputhoahoc + inputsinhHoc;
+    AverageScore = totalScore/3;
+    result = parseInt(AverageScore);
 
-let doF = 9*doC/5 +32;
-
-document.write("Nhiệt độ F là " + doF)
+    alert ("Điểm trung bình ba môn là! ${result}")
+}
