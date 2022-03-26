@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form method="post" action="">
+
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+        </tr>
+        <tr>
+            <td><label><input type="number" name="Amount"></label></td>
+            <td>
+                <label>
+                    <select name="From-Currency">
+                    <option value="crVietnamDong">Việt Nam Đồng</option>
+                    <option value="crUSD">US Dollar</option>
+                    </select>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <select name="From-Currency">
+                    <option value="frVietnamDong">Việt Nam Đồng</option>
+                    <option value="frUSD">US Dollar</option>
+                    </select>
+                </label>
+            </td>
+            <td><button onclick="showMessage();"> Convert </button></td>
+        </tr>
+    </table>
+
+</form>
+<script>
+    function showMessage() {
+        alert("số tiền chuyển đổi là")
+    }
+</script>
+
+</body>
+</html>
