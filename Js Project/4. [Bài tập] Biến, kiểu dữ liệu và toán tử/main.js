@@ -15,5 +15,5 @@ function myFunction() {
     AverageScore = totalScore/3;
     result = parseInt(AverageScore);
 
-    alert ("Điểm trung bình ba môn là! ${result}")
+    document.write("Điểm trung bình ba môn là " + result)
 }

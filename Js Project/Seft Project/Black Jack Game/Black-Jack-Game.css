@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: "Lucida Sans Unicode", serif;
+    background-color: #14295a;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+
+h1{
+color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: darkolivegreen;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+
